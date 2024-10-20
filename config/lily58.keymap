@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans           &trans           &trans           &trans           &trans     &trans
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp F7           &kp LC(U)        &kp LC(I)        &kp LC(O)        &kp LC(P)  &kp F12
-&kp GRAVE   &kp LC(A)     &kp LC(S)     &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON  &kp TILDE
-&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(B)     &trans    &trans  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &kp PIPE
-                                        &trans        &trans        &trans        &trans    &trans  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD
+&bt BT_CLR  &kp F1     &kp F2     &kp F3     &kp F4      &kp F5                          &trans           &kp CARET        &kp ASTERISK         &kp ASTERISK         &kp EQUAL  &trans
+&kp F1      &kp F2     &kp F3     &kp X      &kp F5      &kp F6                          &kp F7           &kp KP_NUMBER_7  &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_9)  &kp PLUS   &kp F12
+&kp GRAVE   &kp LC(A)  &kp LC(S)  &kp HASH   &kp DOLLAR  &kp PRCNT                       &kp CARET        &kp KP_NUMBER_4  &kp KP_NUMBER_5      &kp KP_NUMBER_6      &kp COLON  &kp TILDE
+&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &kp LC(B)  &trans    &kp ENTER  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2      &kp KP_NUMBER_3      &kp SLASH  &kp MINUS
+                                  &trans     &trans      &trans     &trans    &trans     &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -76,8 +76,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
