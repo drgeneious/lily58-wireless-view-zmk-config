@@ -42,10 +42,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp F1     &kp F2     &kp F3         &kp F4     &kp F5                           &trans           &kp CARET        &kp ASTERISK         &kp ASTERISK         &kp EQUAL  &trans
-&trans  &trans     &trans     &kp X          &trans     &trans                           &trans           &kp KP_NUMBER_7  &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_9)  &kp PLUS   &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(LS(A))  &kp LS(Z)  &trans                           &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5      &kp KP_NUMBER_6      &kp COLON  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(B)  &trans     &kp ENTER  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2      &kp KP_NUMBER_3      &kp SLASH  &kp MINUS
+&trans  &kp F1     &kp F2     &kp F3         &kp F4     &kp F5                           &trans           &kp CARET        &kp ASTERISK     &kp ASTERISK     &kp EQUAL  &trans
+&trans  &trans     &trans     &kp X          &trans     &trans                           &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(LS(A))  &kp LS(Z)  &trans                           &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(B)  &trans     &kp ENTER  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &kp MINUS
                               &trans         &trans     &trans     &kp DEL    &kp SPACE  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD
             >;
 
@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &kp F1      &kp F2     &kp F3     &kp F4     &kp F5                                &kp F6         &kp F7        &kp F8        &kp F9            &kp F10            &kp F11
-&kp GRAVE  &trans      &trans     &kp X      &kp LC(U)  &kp LC(I)                             &kp PAGE_UP    &kp ENTER     &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12
-&trans     &kp LC(A)   &kp LC(S)  &kp F4     &kp F5     &kp F6                                &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT         &kp RIGHT          &trans
-&kp F7     &kp LC(F8)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)       &trans        &trans  &kp C_VOL_DN   &kp C_VOL_UP  &kp HOME      &kp END           &kp LEFT_BRACE     &kp RIGHT_BRACE
-                                  &trans     &trans     &kp LEFT_SHIFT  &kp DELETE    &trans  &trans         &trans        &kp DELETE
+&trans     &kp F1      &kp F2     &kp F3     &kp F4     &kp F5                                &kp F6        &kp F7        &kp F8        &kp F9            &kp F10            &kp F11
+&kp GRAVE  &trans      &trans     &kp X      &kp LC(U)  &kp LC(I)                             &kp PG_DN     &kp PG_UP     &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12
+&trans     &kp LC(A)   &kp LC(S)  &kp F4     &kp F5     &kp F6                                &kp ENTER     &kp LEFT      &kp DOWN      &kp RIGHT         &trans             &trans
+&kp F7     &kp LC(F8)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)       &trans        &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp HOME      &kp END           &kp LEFT_BRACE     &kp RIGHT_BRACE
+                                  &trans     &trans     &kp LEFT_SHIFT  &kp DELETE    &trans  &trans        &trans        &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
