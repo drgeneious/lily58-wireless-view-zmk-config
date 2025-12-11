@@ -44,7 +44,7 @@
             bindings = <
 &trans    &kp F1     &kp F2     &kp F3         &kp F4         &kp F5                               &trans        &kp CARET     &kp ASTERISK  &kp ASTERISK  &kp EQUAL  &trans
 &trans    &trans     &trans     &kp X          &trans         &trans                               &trans        &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
-&trans    &kp LC(A)  &kp LC(S)  &kp LC(LS(A))  &kp LC(LS(Z))  &trans                               &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &trans
+&trans    &kp LC(A)  &kp LC(S)  &kp LC(LS(A))  &kp LC(LS(Z))  &kp LC(I)                            &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &trans
 &kp CAPS  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)      &kp LC(B)  &kp LA(TAB)    &kp ENTER  &trans        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp MINUS
                                 &trans         &trans         &trans     &kp DEL        &kp SPACE  &kp NUMBER_0  &kp N0        &kp PERIOD
             >;
